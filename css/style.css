@@ -1,0 +1,113 @@
+*,
+*::before,
+*::after {
+   padding: 0;
+   margin: 0;
+   border: 0;
+   box-sizing: border-box;
+}
+a {
+   text-decoration: none;
+}
+ul,
+ol,
+li {
+   list-style: none;
+}
+img {
+   vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-weight: inherit;
+   font-size: inherit;
+}
+html,
+body {
+   height: 100%;
+   line-height: 1;
+}
+body {
+   font-family: "Days One";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 18px;
+   color: white;
+   background-color: rgb(60, 60, 60);
+}
+.speedometer__container {
+   max-width: 1200px;
+   height: 700px;
+   margin: 0px auto;
+   background: url(/img/Component\ 1.png);
+}
+.speedometer {
+   margin-top: 335px;
+   width: 482px;
+   display: flex;
+}
+.speed {
+   margin-top: 20px;
+   margin-left: 25px;
+   min-width: 399px;
+   height: 291px;
+   background: url(/img/Ellipse\ 1.png);
+   text-align: center;
+}
+.speed-output {
+   margin-top: 110px;
+   font-size: 50px;
+   line-height: 64px;
+   color: white;
+}
+.panel-speed {
+   margin-top: 20px;
+   margin-left: 370px;
+   min-width: 399px;
+   height: 291px;
+   background: url(/img/Ellipse\ 1.png);
+}
+.number__panel1 {
+   width: 22px;
+   height: 18px;
+   margin-top: 50px;
+   margin-left: 180px;
+}
+.number__panel2 {
+   display: flex;
+   width: 217px;
+   height: 25px;
+   margin-top: 17px;
+   margin-left: 90px;
+}
+.number__panel3 {
+   display: flex;
+   width: 281px;
+   height: 601px;
+   margin-top: 56px;
+   margin-left: 60px;
+}
+.three {
+   margin-left: 170px;
+}
+.four {
+   margin-left: 238px;
+}
+.arrow-circle {
+   top: 530px;
+   margin-left: 110px;
+   position: absolute;
+   z-index: 1;
+}
+.arrow {
+   position: absolute;
+   left: 1139px;
+   top: 525px;
+   max-width: 196px;
+   -webkit-transform: rotate(0deg);
+}
